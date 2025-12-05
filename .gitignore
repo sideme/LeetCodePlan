@@ -1,4 +1,10 @@
-# 进度文件
+# Database
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Progress files
 progress.json
 
 # Python
@@ -10,10 +16,25 @@ __pycache__/
 env/
 venv/
 ENV/
+ENV.bak/
+*.egg-info/
+dist/
+build/
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
