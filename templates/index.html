@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode 30-Day Study Plan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 LeetCode 30-Day Study Plan</h1>
+            <div class="header-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Total Progress</span>
+                    <span class="stat-value" id="total-progress">0/150</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Streak</span>
+                    <span class="stat-value" id="streak-days">0 days</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Accuracy</span>
+                    <span class="stat-value" id="accuracy">0%</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="day-selector">
+                    <h3>Select Study Day</h3>
+                    <div class="day-grid" id="day-grid">
+                        <!-- Dynamically generate 30 day buttons -->
+                    </div>
+                </div>
+                
+                <div class="quick-actions">
+                    <button class="btn btn-primary" onclick="loadToday()">Today</button>
+                    <button class="btn btn-secondary" onclick="showStatistics()">Statistics</button>
+                    <button class="btn btn-secondary" onclick="showReview()">Review</button>
+                    <button class="btn btn-secondary" onclick="showDeferred()">Do Later</button>
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div id="plan-content">
+                    <div class="welcome-screen">
+                        <h2>Welcome to LeetCode Study Plan System!</h2>
+                        <p>Select a study day from the left sidebar to begin your coding journey 🎯</p>
+                        <div class="tips">
+                            <h3>Study Tips:</h3>
+                            <ul>
+                                <li>🔴 <strong>Golden Hour (Morning 3 hours)</strong>: Tackle difficult problems, 25-30 minutes per problem</li>
+                                <li>🟡 <strong>Silver Hour (Afternoon 2-3 hours)</strong>: Practice medium problems, complete within 20 minutes</li>
+                                <li>🟢 <strong>Bronze Hour (Evening 1-1.5 hours)</strong>: Review old problems, whiteboard coding</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Statistics Modal -->
+    <div id="statistics-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('statistics-modal')">&times;</span>
+            <h2>Study Statistics</h2>
+            <div id="statistics-content"></div>
+        </div>
+    </div>
+
+    <!-- Review Modal -->
+    <div id="review-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('review-modal')">&times;</span>
+            <h2>Review List</h2>
+            <div id="review-content"></div>
+        </div>
+    </div>
+
+    <!-- Deferred Modal -->
+    <div id="deferred-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('deferred-modal')">&times;</span>
+            <h2>Do Later List</h2>
+            <div id="deferred-content"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

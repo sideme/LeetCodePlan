@@ -1,0 +1,19 @@
+services:
+  leetcode-planner:
+    build: .
+    container_name: leetcode-planner
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./data:/app/data
+      - ./questions.json:/app/questions.json
+    environment:
+      - FLASK_ENV=production
+      - FLASK_DEBUG=0
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+

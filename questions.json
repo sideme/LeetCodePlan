@@ -1,0 +1,244 @@
+{
+  "categories": {
+    "Arrays & Hash Tables": {
+      "description": "Basic data structures, high-frequency interview questions",
+      "questions": [
+        {"id": 1, "title": "Two Sum", "difficulty": "Easy", "neetcode_id": 1},
+        {"id": 49, "title": "Group Anagrams", "difficulty": "Medium", "neetcode_id": 2},
+        {"id": 217, "title": "Contains Duplicate", "difficulty": "Easy", "neetcode_id": 3},
+        {"id": 238, "title": "Product of Array Except Self", "difficulty": "Medium", "neetcode_id": 4},
+        {"id": 347, "title": "Top K Frequent Elements", "difficulty": "Medium", "neetcode_id": 5},
+        {"id": 36, "title": "Valid Sudoku", "difficulty": "Medium", "neetcode_id": 6},
+        {"id": 128, "title": "Longest Consecutive Sequence", "difficulty": "Medium", "neetcode_id": 7},
+        {"id": 271, "title": "Encode and Decode Strings", "difficulty": "Medium", "neetcode_id": 8}
+      ]
+    },
+    "Two Pointers": {
+      "description": "Classic techniques for arrays and strings",
+      "questions": [
+        {"id": 125, "title": "Valid Palindrome", "difficulty": "Easy", "neetcode_id": 9},
+        {"id": 15, "title": "3Sum", "difficulty": "Medium", "neetcode_id": 10},
+        {"id": 11, "title": "Container With Most Water", "difficulty": "Medium", "neetcode_id": 11},
+        {"id": 42, "title": "Trapping Rain Water", "difficulty": "Hard", "neetcode_id": 12},
+        {"id": 121, "title": "Best Time to Buy and Sell Stock", "difficulty": "Easy", "neetcode_id": 13},
+        {"id": 167, "title": "Two Sum II - Input Array Is Sorted", "difficulty": "Medium", "neetcode_id": 14}
+      ]
+    },
+    "Sliding Window": {
+      "description": "Subarray/substring problems",
+      "questions": [
+        {"id": 3, "title": "Longest Substring Without Repeating Characters", "difficulty": "Medium", "neetcode_id": 15},
+        {"id": 424, "title": "Longest Repeating Character Replacement", "difficulty": "Medium", "neetcode_id": 16},
+        {"id": 76, "title": "Minimum Window Substring", "difficulty": "Hard", "neetcode_id": 17},
+        {"id": 239, "title": "Sliding Window Maximum", "difficulty": "Hard", "neetcode_id": 18},
+        {"id": 567, "title": "Permutation in String", "difficulty": "Medium", "neetcode_id": 19}
+      ]
+    },
+    "Stack": {
+      "description": "Parentheses matching, monotonic stack, etc.",
+      "questions": [
+        {"id": 20, "title": "Valid Parentheses", "difficulty": "Easy", "neetcode_id": 20},
+        {"id": 155, "title": "Min Stack", "difficulty": "Medium", "neetcode_id": 21},
+        {"id": 150, "title": "Evaluate Reverse Polish Notation", "difficulty": "Medium", "neetcode_id": 22},
+        {"id": 22, "title": "Generate Parentheses", "difficulty": "Medium", "neetcode_id": 23},
+        {"id": 739, "title": "Daily Temperatures", "difficulty": "Medium", "neetcode_id": 24},
+        {"id": 853, "title": "Car Fleet", "difficulty": "Medium", "neetcode_id": 25},
+        {"id": 84, "title": "Largest Rectangle in Histogram", "difficulty": "Hard", "neetcode_id": 26}
+      ]
+    },
+    "Binary Search": {
+      "description": "Search in sorted arrays",
+      "questions": [
+        {"id": 704, "title": "Binary Search", "difficulty": "Easy", "neetcode_id": 27},
+        {"id": 74, "title": "Search a 2D Matrix", "difficulty": "Medium", "neetcode_id": 28},
+        {"id": 875, "title": "Koko Eating Bananas", "difficulty": "Medium", "neetcode_id": 29},
+        {"id": 33, "title": "Search in Rotated Sorted Array", "difficulty": "Medium", "neetcode_id": 30},
+        {"id": 153, "title": "Find Minimum in Rotated Sorted Array", "difficulty": "Medium", "neetcode_id": 31},
+        {"id": 981, "title": "Time Based Key-Value Store", "difficulty": "Medium", "neetcode_id": 32}
+      ]
+    },
+    "Linked List": {
+      "description": "Pointer operations, reversal, merging",
+      "questions": [
+        {"id": 206, "title": "Reverse Linked List", "difficulty": "Easy", "neetcode_id": 33},
+        {"id": 21, "title": "Merge Two Sorted Lists", "difficulty": "Easy", "neetcode_id": 34},
+        {"id": 143, "title": "Reorder List", "difficulty": "Medium", "neetcode_id": 35},
+        {"id": 19, "title": "Remove Nth Node From End of List", "difficulty": "Medium", "neetcode_id": 36},
+        {"id": 138, "title": "Copy List with Random Pointer", "difficulty": "Medium", "neetcode_id": 37},
+        {"id": 2, "title": "Add Two Numbers", "difficulty": "Medium", "neetcode_id": 38},
+        {"id": 141, "title": "Linked List Cycle", "difficulty": "Easy", "neetcode_id": 39},
+        {"id": 287, "title": "Find the Duplicate Number", "difficulty": "Medium", "neetcode_id": 40},
+        {"id": 146, "title": "LRU Cache", "difficulty": "Medium", "neetcode_id": 41},
+        {"id": 23, "title": "Merge k Sorted Lists", "difficulty": "Hard", "neetcode_id": 42},
+        {"id": 25, "title": "Reverse Nodes in k-Group", "difficulty": "Hard", "neetcode_id": 43}
+      ]
+    },
+    "Tree": {
+      "description": "DFS, BFS, traversal",
+      "questions": [
+        {"id": 226, "title": "Invert Binary Tree", "difficulty": "Easy", "neetcode_id": 44},
+        {"id": 104, "title": "Maximum Depth of Binary Tree", "difficulty": "Easy", "neetcode_id": 45},
+        {"id": 543, "title": "Diameter of Binary Tree", "difficulty": "Easy", "neetcode_id": 46},
+        {"id": 110, "title": "Balanced Binary Tree", "difficulty": "Easy", "neetcode_id": 47},
+        {"id": 100, "title": "Same Tree", "difficulty": "Easy", "neetcode_id": 48},
+        {"id": 572, "title": "Subtree of Another Tree", "difficulty": "Easy", "neetcode_id": 49},
+        {"id": 235, "title": "Lowest Common Ancestor of a BST", "difficulty": "Medium", "neetcode_id": 50},
+        {"id": 102, "title": "Binary Tree Level Order Traversal", "difficulty": "Medium", "neetcode_id": 51},
+        {"id": 199, "title": "Binary Tree Right Side View", "difficulty": "Medium", "neetcode_id": 52},
+        {"id": 1448, "title": "Count Good Nodes in Binary Tree", "difficulty": "Medium", "neetcode_id": 53},
+        {"id": 98, "title": "Validate Binary Search Tree", "difficulty": "Medium", "neetcode_id": 54},
+        {"id": 230, "title": "Kth Smallest Element in a BST", "difficulty": "Medium", "neetcode_id": 55},
+        {"id": 105, "title": "Construct Binary Tree from Preorder and Inorder Traversal", "difficulty": "Medium", "neetcode_id": 56},
+        {"id": 124, "title": "Binary Tree Maximum Path Sum", "difficulty": "Hard", "neetcode_id": 57},
+        {"id": 297, "title": "Serialize and Deserialize Binary Tree", "difficulty": "Hard", "neetcode_id": 58}
+      ]
+    },
+    "Trie": {
+      "description": "Prefix tree",
+      "questions": [
+        {"id": 208, "title": "Implement Trie (Prefix Tree)", "difficulty": "Medium", "neetcode_id": 59},
+        {"id": 211, "title": "Design Add and Search Words Data Structure", "difficulty": "Medium", "neetcode_id": 60},
+        {"id": 212, "title": "Word Search II", "difficulty": "Hard", "neetcode_id": 61}
+      ]
+    },
+    "Heap / Priority Queue": {
+      "description": "Top K problems",
+      "questions": [
+        {"id": 703, "title": "Kth Largest Element in a Stream", "difficulty": "Easy", "neetcode_id": 62},
+        {"id": 1046, "title": "Last Stone Weight", "difficulty": "Easy", "neetcode_id": 63},
+        {"id": 973, "title": "K Closest Points to Origin", "difficulty": "Medium", "neetcode_id": 64},
+        {"id": 215, "title": "Kth Largest Element in an Array", "difficulty": "Medium", "neetcode_id": 65},
+        {"id": 621, "title": "Task Scheduler", "difficulty": "Medium", "neetcode_id": 66},
+        {"id": 355, "title": "Design Twitter", "difficulty": "Medium", "neetcode_id": 67}
+      ]
+    },
+    "Backtracking": {
+      "description": "Combinations, permutations, subsets",
+      "questions": [
+        {"id": 78, "title": "Subsets", "difficulty": "Medium", "neetcode_id": 68},
+        {"id": 39, "title": "Combination Sum", "difficulty": "Medium", "neetcode_id": 69},
+        {"id": 46, "title": "Permutations", "difficulty": "Medium", "neetcode_id": 70},
+        {"id": 90, "title": "Subsets II", "difficulty": "Medium", "neetcode_id": 71},
+        {"id": 40, "title": "Combination Sum II", "difficulty": "Medium", "neetcode_id": 72},
+        {"id": 79, "title": "Word Search", "difficulty": "Medium", "neetcode_id": 73},
+        {"id": 131, "title": "Palindrome Partitioning", "difficulty": "Medium", "neetcode_id": 74},
+        {"id": 17, "title": "Letter Combinations of a Phone Number", "difficulty": "Medium", "neetcode_id": 75},
+        {"id": 51, "title": "N-Queens", "difficulty": "Hard", "neetcode_id": 76}
+      ]
+    },
+    "Graph": {
+      "description": "DFS, BFS, topological sort",
+      "questions": [
+        {"id": 200, "title": "Number of Islands", "difficulty": "Medium", "neetcode_id": 77},
+        {"id": 130, "title": "Surrounded Regions", "difficulty": "Medium", "neetcode_id": 78},
+        {"id": 133, "title": "Clone Graph", "difficulty": "Medium", "neetcode_id": 79},
+        {"id": 994, "title": "Rotting Oranges", "difficulty": "Medium", "neetcode_id": 80},
+        {"id": 207, "title": "Course Schedule", "difficulty": "Medium", "neetcode_id": 81},
+        {"id": 210, "title": "Course Schedule II", "difficulty": "Medium", "neetcode_id": 82},
+        {"id": 684, "title": "Redundant Connection", "difficulty": "Medium", "neetcode_id": 83},
+        {"id": 323, "title": "Number of Connected Components in an Undirected Graph", "difficulty": "Medium", "neetcode_id": 84},
+        {"id": 695, "title": "Max Area of Island", "difficulty": "Medium", "neetcode_id": 85},
+        {"id": 417, "title": "Pacific Atlantic Water Flow", "difficulty": "Medium", "neetcode_id": 86}
+      ]
+    },
+    "Dynamic Programming": {
+      "description": "1D and 2D DP",
+      "questions": [
+        {"id": 70, "title": "Climbing Stairs", "difficulty": "Easy", "neetcode_id": 87},
+        {"id": 746, "title": "Min Cost Climbing Stairs", "difficulty": "Easy", "neetcode_id": 88},
+        {"id": 198, "title": "House Robber", "difficulty": "Medium", "neetcode_id": 89},
+        {"id": 213, "title": "House Robber II", "difficulty": "Medium", "neetcode_id": 90},
+        {"id": 5, "title": "Longest Palindromic Substring", "difficulty": "Medium", "neetcode_id": 91},
+        {"id": 647, "title": "Palindromic Substrings", "difficulty": "Medium", "neetcode_id": 92},
+        {"id": 91, "title": "Decode Ways", "difficulty": "Medium", "neetcode_id": 93},
+        {"id": 322, "title": "Coin Change", "difficulty": "Medium", "neetcode_id": 94},
+        {"id": 152, "title": "Maximum Product Subarray", "difficulty": "Medium", "neetcode_id": 95},
+        {"id": 139, "title": "Word Break", "difficulty": "Medium", "neetcode_id": 96},
+        {"id": 300, "title": "Longest Increasing Subsequence", "difficulty": "Medium", "neetcode_id": 97},
+        {"id": 416, "title": "Partition Equal Subset Sum", "difficulty": "Medium", "neetcode_id": 98},
+        {"id": 1143, "title": "Longest Common Subsequence", "difficulty": "Medium", "neetcode_id": 99},
+        {"id": 72, "title": "Edit Distance", "difficulty": "Hard", "neetcode_id": 100},
+        {"id": 115, "title": "Distinct Subsequences", "difficulty": "Hard", "neetcode_id": 101},
+        {"id": 312, "title": "Burst Balloons", "difficulty": "Hard", "neetcode_id": 102},
+        {"id": 10, "title": "Regular Expression Matching", "difficulty": "Hard", "neetcode_id": 103}
+      ]
+    },
+    "Greedy": {
+      "description": "Local optimal solutions",
+      "questions": [
+        {"id": 53, "title": "Maximum Subarray", "difficulty": "Medium", "neetcode_id": 104},
+        {"id": 55, "title": "Jump Game", "difficulty": "Medium", "neetcode_id": 105},
+        {"id": 45, "title": "Jump Game II", "difficulty": "Medium", "neetcode_id": 106},
+        {"id": 134, "title": "Gas Station", "difficulty": "Medium", "neetcode_id": 107},
+        {"id": 846, "title": "Hand of Straights", "difficulty": "Medium", "neetcode_id": 108},
+        {"id": 1899, "title": "Merge Triplets to Form Target Triplet", "difficulty": "Medium", "neetcode_id": 109},
+        {"id": 763, "title": "Partition Labels", "difficulty": "Medium", "neetcode_id": 110},
+        {"id": 678, "title": "Valid Parenthesis String", "difficulty": "Medium", "neetcode_id": 111}
+      ]
+    },
+    "Intervals": {
+      "description": "Interval merging and overlapping",
+      "questions": [
+        {"id": 57, "title": "Insert Interval", "difficulty": "Medium", "neetcode_id": 112},
+        {"id": 56, "title": "Merge Intervals", "difficulty": "Medium", "neetcode_id": 113},
+        {"id": 435, "title": "Non-overlapping Intervals", "difficulty": "Medium", "neetcode_id": 114},
+        {"id": 252, "title": "Meeting Rooms", "difficulty": "Easy", "neetcode_id": 115},
+        {"id": 253, "title": "Meeting Rooms II", "difficulty": "Medium", "neetcode_id": 116}
+      ]
+    },
+    "Math": {
+      "description": "Mathematical techniques",
+      "questions": [
+        {"id": 202, "title": "Happy Number", "difficulty": "Easy", "neetcode_id": 117},
+        {"id": 66, "title": "Plus One", "difficulty": "Easy", "neetcode_id": 118},
+        {"id": 48, "title": "Rotate Image", "difficulty": "Medium", "neetcode_id": 119},
+        {"id": 54, "title": "Spiral Matrix", "difficulty": "Medium", "neetcode_id": 120},
+        {"id": 73, "title": "Set Matrix Zeroes", "difficulty": "Medium", "neetcode_id": 121},
+        {"id": 50, "title": "Pow(x, n)", "difficulty": "Medium", "neetcode_id": 122},
+        {"id": 43, "title": "Multiply Strings", "difficulty": "Medium", "neetcode_id": 123},
+        {"id": 2013, "title": "Detect Squares", "difficulty": "Medium", "neetcode_id": 124}
+      ]
+    },
+    "Bit Manipulation": {
+      "description": "Bit manipulation techniques",
+      "questions": [
+        {"id": 136, "title": "Single Number", "difficulty": "Easy", "neetcode_id": 125},
+        {"id": 191, "title": "Number of 1 Bits", "difficulty": "Easy", "neetcode_id": 126},
+        {"id": 190, "title": "Reverse Bits", "difficulty": "Easy", "neetcode_id": 127},
+        {"id": 268, "title": "Missing Number", "difficulty": "Easy", "neetcode_id": 128},
+        {"id": 371, "title": "Sum of Two Integers", "difficulty": "Medium", "neetcode_id": 129},
+        {"id": 7, "title": "Reverse Integer", "difficulty": "Medium", "neetcode_id": 130}
+      ]
+    },
+    "Other": {
+      "description": "Design problems and other techniques",
+      "questions": [
+        {"id": 384, "title": "Shuffle an Array", "difficulty": "Medium", "neetcode_id": 131},
+        {"id": 2023, "title": "Number of Pairs of Strings With Concatenation Equal to Target", "difficulty": "Medium", "neetcode_id": 132},
+        {"id": 49, "title": "Group Anagrams", "difficulty": "Medium", "neetcode_id": 133},
+        {"id": 295, "title": "Find Median from Data Stream", "difficulty": "Hard", "neetcode_id": 134},
+        {"id": 146, "title": "LRU Cache", "difficulty": "Medium", "neetcode_id": 135},
+        {"id": 460, "title": "LFU Cache", "difficulty": "Hard", "neetcode_id": 136},
+        {"id": 380, "title": "Insert Delete GetRandom O(1)", "difficulty": "Medium", "neetcode_id": 137},
+        {"id": 981, "title": "Time Based Key-Value Store", "difficulty": "Medium", "neetcode_id": 138},
+        {"id": 528, "title": "Random Pick with Weight", "difficulty": "Medium", "neetcode_id": 139},
+        {"id": 432, "title": "All O one Data Structure", "difficulty": "Hard", "neetcode_id": 140},
+        {"id": 895, "title": "Maximum Frequency Stack", "difficulty": "Hard", "neetcode_id": 141},
+        {"id": 588, "title": "Design In-Memory File System", "difficulty": "Hard", "neetcode_id": 142},
+        {"id": 208, "title": "Implement Trie (Prefix Tree)", "difficulty": "Medium", "neetcode_id": 143},
+        {"id": 211, "title": "Design Add and Search Words Data Structure", "difficulty": "Medium", "neetcode_id": 144},
+        {"id": 212, "title": "Word Search II", "difficulty": "Hard", "neetcode_id": 145},
+        {"id": 642, "title": "Design Search Autocomplete System", "difficulty": "Hard", "neetcode_id": 146},
+        {"id": 588, "title": "Design In-Memory File System", "difficulty": "Hard", "neetcode_id": 147},
+        {"id": 2115, "title": "Find All Possible Recipes from Given Supplies", "difficulty": "Medium", "neetcode_id": 148},
+        {"id": 269, "title": "Alien Dictionary", "difficulty": "Hard", "neetcode_id": 149},
+        {"id": 444, "title": "Sequence Reconstruction", "difficulty": "Hard", "neetcode_id": 150}
+      ]
+    }
+  },
+  "total_questions": 150,
+  "study_days": 30,
+  "daily_new_questions": 5,
+  "daily_review_questions": 3
+}
+
